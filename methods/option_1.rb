@@ -9,7 +9,7 @@ def option_1
   promedios = ''
   alumnos.each do |key, value|
     total = ( value.inject(0) { |sum, nota| sum + nota[1].to_i } ) / value.length
-    promedios += "#{key} #{total}\n"
+    promedios += "#{key}, #{total}\n"
   end
   File.write('promedios.csv', promedios)
 end
