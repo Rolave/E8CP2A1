@@ -5,9 +5,9 @@ require_relative './methods/option_3'
 
 txt_menu = <<BLA
   Selecciona una opción
-  1. Generar Promedio de cada Alumno
-  2. Contar Total de Inasistencias de cada Alumno
-  3. Contar Total de Inasistencias de cada Alumno
+  1. Generar promedio de cada alumno
+  2. Contar total de Inasistencias de cada alumno
+  3. Mostrar los nombres de los alumnos aprobados
   4. Salir
 BLA
 
